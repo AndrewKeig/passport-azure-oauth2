@@ -111,7 +111,6 @@ Valid values are:
 
 ```
 npm test
-
 ```
 
 ## License
