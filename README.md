@@ -79,10 +79,10 @@ app.get("/cb",
 
 ###state
 
+Simply plugin `express-session` to enable session support, and set `state: true` when creating your `AzureOAuthStrategy`
+
 [Recommended] A randomly generated non-reused value that is sent in the request and returned in the response. This parameter is used as a mitigation against cross-site request forgery (CSRF) attacks. For more information, see Best Practices for OAuth 2.0 in Azure AD.
 
-
-Simply plugin `express-session` to enable session support, and set `state: true` when creating your `AzureOAuthStrategy`
 
 ```
 var session = require("express-session");
