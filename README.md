@@ -21,9 +21,9 @@ Create a module `auth.js`:
 
 /*jshint camelcase: false */
 
-var AzureOAuth2Strategy 		= require("passport-azure-oauth2");
-var jwt 						= require("jwt-simple");
-var config 						= require("../config");
+var AzureOAuth2Strategy  = require("passport-azure-oauth2");
+var jwt 				  = require("jwt-simple");
+var config 				  = require("../config");
 
 function AzureOAuthStrategy() {
 	this.passport = require("passport");
